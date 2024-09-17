@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration_page</title>
+</head>
+<body>
+    <section class="popover">
+        <div class="containerr">
+            <div class="containerr-2">
+                <div class="wrapperr">
+                    <div>
+                        <h3 style="color: #0ac62a; font-size: 35px;">Farmer Details</h3>
+                        <form  id="contactForm" action="https://formspree.io/f/xjvnjndo"
+                        method="POST">
+
+                            <label>Name</label> <br>
+                            <input type="text" required placeholder="Username">
+                            <br> <br>
+
+                            <label>Contact Information</label> <br>
+                            <input type="tel" placeholder="Phone No" required>
+                            <br> <br>
+
+                            <label>Date of Birth</label>
+                            <input type="date" required> 
+                            <br> <br>
+                            
+                            <!--checkbox-->
+                            <div class="checkbox" >
+                            <label >Cooperative
+                            <input type="checkbox" required>
+                            NonCooperative
+                            <input type="checkbox" >
+                            </label>
+                        </div>
+
+                    </div>
+                    
+                    <div>
+                        <h3> Farm Information</h3>
+                        <label>Farm Size In Hectare</label> <br>
+                <input type="number" required>
+                <br> <br>
+
+                <label>Type of Crops or Livestock Raised</label> <br>
+                <input type="text" required placeholder="" required> 
+                <br> <br>
+
+                <label>Farm Location</label> <br>
+                <input type="text" name="location" required>
+                <br> <br>
+                
+                <div class="f-input">
+                    <label>Upload Farm photo</label> <br>
+                <input type="file" name="picture" accept="image/*" style="border: none;" required>
+                </div>
+                
+                <button class="btn">Submit</button>
+
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
